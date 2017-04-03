@@ -13,6 +13,8 @@ env:
   - CXX=g++-4.8
 
 addons:
+  code_climate:
+    repo_token: f4c0fa6444e6dabf68585ae9d5e6adca7283bc26cf177f135466ead0eb2d2022
   apt:
     sources:
       - ubuntu-toolchain-r-test
